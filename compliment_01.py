@@ -1,8 +1,10 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Kevin Hormaza
+# DATE: October 5, 2025
+# BRIEF DESCRIPTION:  this program asks the user if they would like a compliment.
+# if the user types "yes", the program gives a compliment.
+# Either way, the user is thanked for playing.
 
 
 
@@ -15,7 +17,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+answer = input("Would you like a compliment? ")
+    
+if answer == "yes":
+    print("You have wonderful eyes.")
 
+print("Thank you for playing.")
 
 
 
@@ -66,12 +73,13 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+2
 
 
 
 2. What was the hardest part of this lab?
-
+Remembering that Python is case-sensitive.
+I had to test with "Yes" and realized it doesn't count as "yes".
 
 
 
